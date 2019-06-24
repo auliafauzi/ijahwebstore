@@ -17,6 +17,8 @@ The Services resource represents all web services currently available via Websto
 
 # Add Items to inventory
 
+Add items to inventory, the input is "kwitansi" which each line is product information (SKU, NamaBarang, JumlahPesanan JumlahDiterima, HargaBeli). This service will update CatatanMasuk Table, and update "Jumlah" column in "CatatanJumlahBarang" table if the units is already on our inventory, or will add new line if the we have not the product yet.   
+
 Definition :
 ```bash
 http://<webstore host>:<rest api port>/barang-masuk
@@ -54,6 +56,8 @@ curl -X POST -d
 ```
 
 # Sell items
+
+Sell Items Service. the input is "strtuk" which each line caontain product information (SKU, NamaBarang, Jumlah, HargaSatuan). This service will check wheter the product is on our inventory or not, if not, the service will be fail, if it is exist, update "CatatanKeluar" table and update "Jumlah" column on "CatatanJumlahBarang" table.  
 
 Definition :
 ```bash
