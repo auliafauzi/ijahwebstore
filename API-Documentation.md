@@ -57,7 +57,7 @@ curl -X POST -d
 
 # Sell items
 
-Sell Items Service. the input is "strtuk" which each line caontain product information (SKU, NamaBarang, Jumlah, HargaSatuan). This service will check wheter the product is on our inventory or not, if not, the service will be fail, if it is exist, update "CatatanKeluar" table and update "Jumlah" column on "CatatanJumlahBarang" table.  
+Sell Items Service. the input is "strtuk" which each line caontain product information (SKU, NamaBarang, Jumlah, HargaSatuan). This service will check wheter the product is on our inventory or not, if not, the service will be fail, if it is exist, update "CatatanKeluar" table, calculate our profit, update "LaporanPenjualan" table, and update "Jumlah" column on "CatatanJumlahBarang" table.  
 
 Definition :
 ```bash
