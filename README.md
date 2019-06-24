@@ -1,4 +1,4 @@
-# ijahwebstore
+# WebstoreAPI
 
 1. Install Golang : https://golang.org/doc/install
 2. Create Directory ~/go/src/ijahwebstore
