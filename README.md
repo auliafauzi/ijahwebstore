@@ -10,5 +10,5 @@
       ```
 6. Run the API :
       ```bash
-      webstoreAPI --start true
+      ./webstoreAPI --start true
       ```
