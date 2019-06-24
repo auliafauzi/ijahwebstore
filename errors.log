@@ -1,0 +1,78 @@
+ERROR: 2019/06/23 23:18:02 webstore.go:361: Fail to Export CSV : Cannot Create File  open : no such file or directory
+ERROR: 2019/06/23 23:22:18 webstore.go:361: Fail to Export CSV : Cannot Create File  open : no such file or directory
+ERROR: 2019/06/23 23:23:32 webstore.go:130: Error Struk JSON invalid character '-' in numeric literal
+ERROR: 2019/06/23 23:23:48 webstore.go:130: Error Struk JSON invalid character '-' in numeric literal
+ERROR: 2019/06/23 23:24:46 webstore.go:130: Error Struk JSON invalid character '-' in numeric literal
+ERROR: 2019/06/23 23:24:48 webstore.go:130: Error Struk JSON invalid character '-' in numeric literal
+ERROR: 2019/06/23 23:24:49 webstore.go:130: Error Struk JSON invalid character '-' in numeric literal
+ERROR: 2019/06/23 23:24:51 webstore.go:130: Error Struk JSON invalid character '-' in numeric literal
+ERROR: 2019/06/23 23:24:52 webstore.go:130: Error Struk JSON invalid character '-' in numeric literal
+ERROR: 2019/06/23 23:29:32 webstore.go:130: Error Struk JSON invalid character '-' in numeric literal
+ERROR: 2019/06/23 23:29:33 webstore.go:130: Error Struk JSON invalid character '-' in numeric literal
+ERROR: 2019/06/23 23:29:56 webstore.go:130: Error Struk JSON invalid character '-' in numeric literal
+ERROR: 2019/06/23 23:32:37 webstore.go:138: Marshalling failed json: cannot unmarshal object into Go value of type []webstoreservice.Kwitansi
+ERROR: 2019/06/23 23:34:03 webstore.go:130: Error Struk JSON invalid character '[' looking for beginning of object key string
+ERROR: 2019/06/23 23:34:22 webstore.go:130: Error Struk JSON invalid character '[' looking for beginning of object key string
+ERROR: 2019/06/23 23:36:01 webstore.go:130: Error Struk JSON invalid character '[' looking for beginning of object key string
+ERROR: 2019/06/23 23:36:43 webstore.go:130: Error Struk JSON invalid character '[' looking for beginning of object key string
+ERROR: 2019/06/23 23:43:23 webstore.go:130: Error Struk JSON invalid character '[' looking for beginning of object key string
+ERROR: 2019/06/23 23:44:01 webstore.go:130: Error Struk JSON invalid character '[' looking for beginning of object key string
+ERROR: 2019/06/23 23:44:24 webstore.go:130: Error Struk JSON json: cannot unmarshal object into Go value of type []webstoreservice.Kwitansi
+ERROR: 2019/06/23 23:46:44 webstore.go:130: Error Struct JSON invalid character '[' looking for beginning of object key string
+ERROR: 2019/06/23 23:46:55 webstore.go:130: Error Struct JSON invalid character '\n' in string literal
+ERROR: 2019/06/23 23:47:12 webstore.go:130: Error Struct JSON invalid character '\n' in string literal
+ERROR: 2019/06/23 23:47:20 webstore.go:130: Error Struct JSON invalid character '\t' in string literal
+ERROR: 2019/06/23 23:47:22 webstore.go:130: Error Struct JSON invalid character '\t' in string literal
+ERROR: 2019/06/24 10:47:19 webstore.go:130: Error Struct JSON invalid character '{' looking for beginning of object key string
+ERROR: 2019/06/24 10:48:15 webstore.go:130: Error Struct JSON invalid character '{' looking for beginning of object key string
+ERROR: 2019/06/24 11:03:03 webstore.go:130: Error Struct JSON invalid character 'o' looking for beginning of object key string
+ERROR: 2019/06/24 11:03:10 webstore.go:130: Error Struct JSON invalid character 'o' looking for beginning of object key string
+ERROR: 2019/06/24 11:03:23 webstore.go:130: Error Struct JSON invalid character '"' after object key:value pair
+ERROR: 2019/06/24 11:05:12 webstore.go:359: Fail to Export CSV : Cannot Create File  open : no such file or directory
+ERROR: 2019/06/24 11:05:26 webstore.go:359: Fail to Export CSV : Cannot Create File  open : no such file or directory
+ERROR: 2019/06/24 11:06:19 webstore.go:359: Fail to Export CSV : Cannot Create File  open : no such file or directory
+ERROR: 2019/06/24 11:08:07 webstore.go:359: Fail to Export CSV : Cannot Create File  open : no such file or directory
+ERROR: 2019/06/24 11:08:11 webstore.go:359: Fail to Export CSV : Cannot Create File  open : no such file or directory
+ERROR: 2019/06/24 11:08:34 webstore.go:359: Fail to Export CSV : Cannot Create File  open : no such file or directory
+ERROR: 2019/06/24 11:08:40 webstore.go:359: Fail to Export CSV : Cannot Create File  open : no such file or directory
+ERROR: 2019/06/24 11:09:36 webstore.go:359: Fail to Export CSV : Cannot Create File  open : no such file or directory
+ERROR: 2019/06/24 11:10:24 webstore.go:360: Fail to Export CSV : Cannot Create File  open : no such file or directory
+ERROR: 2019/06/24 11:24:22 webstore.go:360: Fail to Export CSV :test01.csvis exists readdirent: not a directory
+ERROR: 2019/06/24 11:37:08 webstore.go:361: Fail to Export CSV : Cannot Create File  open : no such file or directory
+ERROR: 2019/06/24 11:38:42 webstore.go:361: Fail to Export CSV : Cannot Create File  open : no such file or directory
+ERROR: 2019/06/24 11:39:18 webstore.go:361: Fail to Export CSV : Cannot Create File  open : no such file or directory
+ERROR: 2019/06/24 11:39:25 webstore.go:361: Fail to Export CSV : Cannot Create File  open : no such file or directory
+ERROR: 2019/06/24 11:40:47 webstore.go:361: Fail to Export CSV : Cannot Create File  open : no such file or directory
+ERROR: 2019/06/24 11:40:55 webstore.go:361: Fail to Export CSV : Cannot Create File  open : no such file or directory
+ERROR: 2019/06/24 12:03:56 webstore.go:130: Error Struct JSON invalid character '[' looking for beginning of object key string
+ERROR: 2019/06/24 12:04:11 webstore.go:130: Error Struct JSON invalid character '\n' in string literal
+ERROR: 2019/06/24 12:04:17 webstore.go:130: Error Struct JSON invalid character 'S' after object key
+ERROR: 2019/06/24 12:07:06 webstore.go:130: Error Struct JSON invalid character '"' after object key:value pair
+ERROR: 2019/06/24 12:08:14 webstore.go:130: Error Struct JSON invalid character '[' looking for beginning of object key string
+ERROR: 2019/06/24 12:08:29 webstore.go:130: Error Struct JSON invalid character '[' looking for beginning of object key string
+ERROR: 2019/06/24 12:09:17 webstore.go:130: Error Struct JSON invalid character '[' looking for beginning of object key string
+ERROR: 2019/06/24 12:10:59 webstore.go:130: Error Struct JSON invalid character '[' looking for beginning of object key string
+ERROR: 2019/06/24 12:11:12 webstore.go:130: Error Struct JSON invalid character '[' looking for beginning of object key string
+ERROR: 2019/06/24 12:18:49 webstore.go:130: Error Struct JSON invalid character '1' looking for beginning of object key string
+ERROR: 2019/06/24 12:18:58 webstore.go:130: Error Struct JSON invalid character '"' after object key:value pair
+ERROR: 2019/06/24 12:19:16 webstore.go:130: Error Struct JSON invalid character '\n' in string literal
+ERROR: 2019/06/24 12:19:27 webstore.go:130: Error Struct JSON invalid character '"' after object key:value pair
+ERROR: 2019/06/24 12:21:31 webstore.go:130: Error Struct JSON invalid character '"' after object key:value pair
+ERROR: 2019/06/24 12:22:24 webstore.go:130: Error Struct JSON invalid character '"' after object key:value pair
+ERROR: 2019/06/24 12:26:12 webstore.go:130: Error Struct JSON invalid character '[' looking for beginning of object key string
+ERROR: 2019/06/24 12:26:21 webstore.go:130: Error Struct JSON invalid character '[' looking for beginning of object key string
+ERROR: 2019/06/24 12:27:19 webstore.go:130: Error Struct JSON invalid character '"' after object key:value pair
+ERROR: 2019/06/24 12:27:54 webstore.go:130: Error Struct JSON invalid character '"' after object key:value pair
+ERROR: 2019/06/24 12:30:58 webstore.go:130: Error Struct JSON invalid character '"' after object key:value pair
+ERROR: 2019/06/24 12:32:35 webstore.go:130: Error Struct JSON invalid character '"' after object key:value pair
+ERROR: 2019/06/24 12:33:24 webstore.go:130: Error Struct JSON invalid character '}' looking for beginning of object key string
+ERROR: 2019/06/24 12:33:36 webstore.go:130: Error Struct JSON json: cannot unmarshal object into Go value of type []webstoreservice.Kwitansi
+ERROR: 2019/06/24 12:34:24 webstore.go:130: Error Struct JSON json: cannot unmarshal object into Go value of type []webstoreservice.Kwitansi
+ERROR: 2019/06/24 12:35:01 webstore.go:130: Error Struct JSON invalid character '[' looking for beginning of object key string
+ERROR: 2019/06/24 12:36:03 webstore.go:138: Marshalling failed json: cannot unmarshal object into Go value of type []webstoreservice.Kwitansi
+ERROR: 2019/06/24 13:04:35 webstore.go:67: Stok Kosong, SKU= SKUTEST06
+ERROR: 2019/06/24 13:05:31 webstore.go:67: Stok Kosong, SKU= SKUTEST06
+ERROR: 2019/06/24 13:14:13 webstore.go:67: Stok Kosong, SKU= SKUTEST05
+ERROR: 2019/06/24 13:17:48 webstore.go:67: Stok Kosong, SKU= SKUTEST05
+ERROR: 2019/06/24 13:56:29 webstore.go:378: Fail to Export CSV : Cannot Create File  open : no such file or directory
+ERROR: 2019/06/24 13:57:26 webstore.go:378: Fail to Export CSV : Cannot Create File  open : no such file or directory

@@ -1,0 +1,62 @@
+package logger
+
+import (
+    "log"
+    "io"
+    "os"
+    )
+
+var (
+    // Trace is for full detailed messages.
+    Trace *log.Logger
+
+    // Info is for important messages.
+    Info *log.Logger
+
+    // Warning is for need to know issue messages.
+    Warning *log.Logger
+
+    // Error is for error messages.
+    Error *log.Logger
+)
+
+// initLog sets the devices for each log type.
+//func initLog(traceHandle io.Writer, infoHandle io.Writer, warningHandle io.Writer, errorHandle io.Writer) {
+func initLog(infoHandle io.Writer, warningHandle io.Writer, errorHandle io.Writer) {
+    //Trace = log.New(traceHandle,
+    //    "TRACE: ",
+    //    log.Ldate|log.Ltime|log.Lshortfile)
+
+    Info = log.New(infoHandle,
+        "INFO: ",
+        log.Ldate|log.Ltime|log.Lshortfile)
+
+    Warning = log.New(warningHandle,
+        "WARNING: ",
+        log.Ldate|log.Ltime|log.Lshortfile)
+
+    Error = log.New(errorHandle,
+        "ERROR: ",
+        log.Ldate|log.Ltime|log.Lshortfile)
+}
+
+func init() {
+    // Open a file for warnings.
+    warnings, err := os.OpenFile("warnings.log", os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0666)
+    if err != nil {
+        log.Fatalln("Failed to open warning log file")
+    }
+
+    // Open a file for errors.
+    errors, err := os.OpenFile("errors.log", os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0666)
+    if err != nil {
+        log.Fatalln("Failed to open errors log file")
+    }
+
+
+    // Create a multi writer for errors.
+    multi := io.MultiWriter(errors, os.Stderr)
+
+    // Init the log package for each message type.
+    initLog(os.Stdout, warnings, multi)
+}
